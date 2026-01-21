@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btn_menu_asociar_cta"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="27dp"
+        android:layout_y="20dp"
+        android:background="@drawable/asociar_cta" />
+
+    <Button
+        android:id="@+id/btn_menu_incluir_gasto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="165dp"
+        android:layout_y="24dp"
+        android:background="@drawable/incluir_gasto" />
+
+    <Button
+        android:id="@+id/btn_menu_gastos_x_cta"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="27dp"
+        android:layout_y="191dp"
+        android:background="@drawable/reporte"/>
+
+    <Button
+        android:id="@+id/btn_menu_exit"
+        android:layout_width="105dp"
+        android:layout_height="67dp"
+        android:layout_x="174dp"
+        android:layout_y="216dp"
+        android:background="@drawable/exit" />
+
+    <TextView
+        android:id="@+id/txtLogMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="330dp"
+        android:text="Log"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="12dp" />
+
+</AbsoluteLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_gravity="center" android:layout_height="wrap_content">
+
+<AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"></AbsoluteLayout>
+
+
+<CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:text="Wifi" android:id="@+id/wifi"></CheckBox>
+<CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:text="INS" android:id="@+id/ins"></CheckBox>
+<Button android:layout_height="wrap_content" android:text="Empezar" android:layout_width="wrap_content" android:layout_gravity="center" android:id="@+id/startB"></Button>
+</LinearLayout>

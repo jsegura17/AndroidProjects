@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Look! Social</string>
+	<string name="save">Save</string>
+	<string name="load">Load</string>
+	<string name="welcome">Welcome</string>
+	<string name="new_user">New user</string>
+	<string name="login">Login</string>
+	<string name="search">Search</string>
+	<string name="refresh">Refresh</string>
+	<string name="main_msg">Welcome to Look! Social</string>
+	<string name="new_account">New Account</string>
+	<string name="email">Email</string>
+	<string name="password">Password</string>
+	<string name="username">User Name</string>
+	<string name="cancel">Cancel</string>
+	<string name="create_account">Create an account</string>
+	<string name="dont_you_have_an_account">Don´t you have an account?</string>
+	<string name="more_options">More options</string>
+	<string name="name">Name</string>
+	<string name="status">Status</string>
+
+	<string name="account_setup">Account Setup</string>
+	<string name="attempting_configure">Attempting to configure account</string>
+	<string name="required_fields">Required Fields</string>
+	<string name="required_field">Required Field</string>
+	<string name="allfields_required">Please fill in all of the fields before submitting.</string>
+	<string name="logged_correctly">Logged correctly</string>
+	<string name="incorrect_user">Error, incorrect user</string>
+	<string name="incorrect_password">Error, incorrect password</string>
+	<string name="user_already_exits">The user already exits</string>
+	<string name="user_created">The user has been created</string>
+	<string name="edit_account">Edit Account</string>
+	<string name="user_list">User list</string>
+	<string name="augmented_reality">Augmented Reality</string>
+	<string name="world_updated">World Updated Correctly</string>
+	<string name="updating">Updating</string>
+	<string name="attempting_update">Attempting to update world</string>
+	<string name="close_account">Close Account</string>
+	<string name="email_user_password_required">Please fill the email, username and password  fields before submitting.</string>
+	<string name="modified_user">Modified User</string>
+	<string name="splashscreen_msg">Social network &amp; Augmented reality</string>
+	<string name="net_error">Error with the Network. Sorry check your connection</string>
+	<string name="addnote">Add note</string>
+
+</resources>

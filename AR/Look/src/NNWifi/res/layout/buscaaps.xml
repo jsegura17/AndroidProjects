@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_gravity="center">
+
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_gravity="center" android:gravity="center">
+
+
+		<Button android:layout_height="wrap_content"
+			android:layout_gravity="center|bottom" android:id="@+id/Buscarbtn"
+			android:text="Buscar" android:layout_width="wrap_content"></Button>
+
+	</LinearLayout>
+
+
+
+
+
+	<ScrollView android:layout_height="match_parent"
+		android:layout_width="match_parent" android:layout_weight="1">
+		<TextView android:text=""
+			android:layout_gravity="center" android:id="@+id/Buscarresult"
+			android:layout_height="match_parent" android:layout_width="match_parent"
+			android:scrollbars="vertical"></TextView>
+	</ScrollView>
+
+
+
+</LinearLayout>

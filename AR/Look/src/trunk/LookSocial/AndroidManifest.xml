@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="es.ucm.look" android:versionCode="1"
+	android:versionName="1.0" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:installLocation="auto">
+
+
+	<uses-sdk android:minSdkVersion="9" android:targetSdkVersion="9" />
+
+
+		<application 
+		android:icon="@drawable/icon_look" android:theme="@style/LookSocial" android:label="@string/app_name">
+
+		<service android:enabled="true" android:name=".data.remote.restful.LookService"></service>
+
+		<activity 	android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:name="LookSocial">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".subactivities.register.NewAccount"></activity>
+		
+		<activity android:name=".subactivities.LookMenu" android:screenOrientation="portrait"></activity>
+
+		<activity android:name=".subactivities.look3d.LookAugmentedReality"></activity>
+
+		<activity android:name=".subactivities.looklist.LookList" android:screenOrientation="portrait">	</activity>
+
+		<activity android:name=".subactivities.register.EditAccount">	</activity>
+		<activity android:name=".subactivities.register.LoginAccount"></activity>
+		<activity android:name=".subactivities.register.MoreOptionsAccount"></activity>
+		
+		<activity android:name=".entities.notes.NewNoteActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+	  <provider android:name=".data.local.contentprovider.sql.LookSQLContentProvider" 
+			  android:authorities="es.ucm.look.data.local.contentprovider.sql"></provider>
+			  
+		<activity android:name=".subactivities.register.EditAccount"></activity>
+		
+
+	</application>
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+
+
+</manifest> 

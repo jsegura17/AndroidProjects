@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    <item android:title="@string/edit_account" 
+    android:id="@+id/edit_user"
+     android:icon="@drawable/ic_menu_edit"></item>
+     
+     <item android:title="@string/close_account" 
+    android:id="@+id/close_account"
+     android:icon="@drawable/ic_menu_close_clear_cancel"></item>
+     
+</menu>

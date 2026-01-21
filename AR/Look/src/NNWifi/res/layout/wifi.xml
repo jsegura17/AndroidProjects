@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="fill_parent"
+	android:layout_gravity="center" android:layout_width="match_parent"
+	android:gravity="center">
+
+
+	<TableLayout android:stretchColumns="0|1" android:gravity="center"
+		android:layout_gravity="center" android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		
+				<TableRow>
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextViewNodo"
+				android:textStyle="bold" android:text="Nodo : "
+				android:layout_width="wrap_content" android:gravity="right"
+				android:layout_gravity="center"></TextView>
+			<TextView android:id="@+id/nodo" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="not supported"
+				android:textStyle="bold" android:layout_gravity="center" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextView04"
+				android:textStyle="bold" android:text="Lugar : "
+				android:layout_width="wrap_content" android:gravity="right"
+				android:layout_gravity="center"></TextView>
+			<TextView android:id="@+id/nombre" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="not supported"
+				android:textStyle="bold" android:layout_gravity="center" />
+		</TableRow>
+
+
+		<TableRow>
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextView01"
+				android:textStyle="bold" android:text="Planta : "
+				android:layout_width="wrap_content" android:gravity="right"
+				android:layout_gravity="center"></TextView>
+			<TextView android:id="@+id/planta" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="not supported"
+				android:textStyle="bold" android:layout_gravity="center" />
+		</TableRow>
+
+		<TableRow>
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="right"
+				android:text="Pos X : " android:textStyle="bold"
+				android:layout_gravity="center" />
+			<TextView android:id="@+id/posicx" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="not supported"
+				android:textStyle="bold" android:layout_gravity="center" />
+		</TableRow>
+
+		<TableRow>
+
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="right"
+				android:text="Pos Y : " android:textStyle="bold"
+				android:layout_gravity="center" />
+			<TextView android:id="@+id/posicy" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="not supported"
+				android:textStyle="bold" android:layout_gravity="center" />
+		</TableRow>
+
+
+	</TableLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_gravity="center"
+		android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+		<Button android:text="Localizar" android:layout_width="wrap_content"
+			android:id="@+id/Button03" android:layout_height="wrap_content"
+			android:gravity="center" android:layout_gravity="center"></Button>
+
+
+
+	</LinearLayout>
+</LinearLayout>
+	
+	
+
+
+		
+	
+

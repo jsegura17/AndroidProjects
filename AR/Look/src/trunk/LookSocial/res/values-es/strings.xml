@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Look!</string>
+    <string name="save">Guardar</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="new_user">Nuevo Usuario</string>
+    <string name="login">Login</string>
+    <string name="search">Buscar</string>
+    <string name="refresh">Actualizar</string>
+    <string name="main_msg">Bienvenido a la red social Look</string>
+    <string name="addnote">Nueva nota</string>
+</resources>

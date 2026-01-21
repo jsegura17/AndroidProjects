@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:id="@+id/layout"
+  android:layout_height="fill_parent">
+  
+    <Button
+        android:id="@+id/up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginBottom="10dip"
+        
+        android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"
+        android:text="Walk" />
+  
+   
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/mensaje" android:text="mensaje" android:gravity="center" android:layout_centerVertical="true" android:layout_centerInParent="true" android:textStyle="bold" android:visibility="invisible"></TextView>
+</RelativeLayout>
